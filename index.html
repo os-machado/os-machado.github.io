@@ -7,13 +7,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>🪓 The Machado Family</title>
 </head>
+<style>
+    body {
+        background-color: black;
+        color: azure;
+        font-family: sans-serif;
+    }
 
-<body style="background-color:black; color:azure;
-    font-family: sans-serif;">
-    <main style="text-align: center;color: darkgray;">
+    body main {
+        text-align: center;
+        color: darkgray;
+    }
+
+    a {
+        color: darkgray;
+        text-decoration: none;
+    }
+
+    .capivara {
+        width: 80%;
+    }
+
+    @media (min-width: 600px) {
+        .capivara {
+            width: auto;
+        }
+    }
+</style>
+
+<body>
+    <main>
         <h1>🪓 The Machado Family</h1>
-        <img src="images/capivara.png" />
-        <p>by <a href="https://alexandre.machado.cc" style="color: darkgray;text-decoration: none;">
+        <img class="capivara" src="images/capivara.png" />
+        <p>by <a href="https://alexandre.machado.cc">
                 <img src="https://www.gravatar.com/avatar/6ae58efd6a897446e8e1c94b44b5b28a?s=150" width="24px"
                     height="24px" alt="..." style="border-radius: 50%;vertical-align:middle" class="img-thumbnail"
                     srcset="https://www.gravatar.com/avatar/6ae58efd6a897446e8e1c94b44b5b28a?s=50 50w, https://www.gravatar.com/avatar/6ae58efd6a897446e8e1c94b44b5b28a?s=150 150w, https://www.gravatar.com/avatar/6ae58efd6a897446e8e1c94b44b5b28a?s=280 280w">
